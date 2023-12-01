@@ -15,13 +15,7 @@ def scan(site):
             open('Result-iprange.txt', 'a').write(str(taz) + str(c) + '.' + str(i) + '\n')
             
 if __name__ == '__main__':
-	print('''
-   Mod By :
- ____  _   _ _   _ ____    _    _   _ _____ ____  _____
-/ ___|| | | | \ | |  _ \  / \  | \ | | ____/ ___|| ____|
-\___ \| | | |  \| | | | |/ _ \ |  \| |  _| \___ \|  _|
- ___) | |_| | |\  | |_| / ___ \| |\  | |___ ___) | |___
-|____/ \___/|_| \_|____/_/   \_\_| \_|_____|____/|_____| \n''')
+	print('''KONTOL IP RANGE\n''')
 
 nam = raw_input('List Ips  :')
 with open(nam) as f:
